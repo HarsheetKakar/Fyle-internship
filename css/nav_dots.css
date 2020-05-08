@@ -1,0 +1,18 @@
+.next>li {
+    position: relative;
+    display: inline-block;
+}
+
+.next>li>button.selected {
+    background-color: #0099FF;
+    border-radius: 100%;
+    width: 9px;
+    height: 14px;
+}
+
+.next>li>button {
+    background-color: white;
+    border-radius: 100%;
+    width: 9px;
+    height: 14px;
+}

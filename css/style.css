@@ -1,0 +1,290 @@
+body {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.top {
+    display: inline-flex;
+    margin: 100px;
+    width: 65%;
+}
+
+.top-left {
+    width: 85%;
+    margin-top: 30px;
+}
+
+.heading-top-left {
+    color: #31373D;
+    font-family: "aktiv-grotesk-std";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    width: 100%;
+    text-align: left;
+}
+
+.text-top-left {
+    color: #31373D;
+    font-family: "aktiv-grotesk-std";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 90%;
+    text-align: left;
+}
+
+.button-top-left {
+    width: 100%;
+}
+
+.button-top-left>button,
+.bottom>.left-text>button {
+    background-color: #0099FF;
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-left: 3px;
+    margin-right: 7px;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+.button-top-left>button:disabled {
+    border: 2px solid #0099FF;
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    background-color: white;
+}
+
+.globe-img {
+    width: 50%;
+}
+
+.globe-img>img {
+    width: 300px;
+}
+
+.mid {
+    margin: 55px;
+    height: 500px;
+}
+
+.mid>.internal {
+    background-image: url('../images/BG.png');
+    width: 100%;
+    height: 360px;
+    display: block;
+    padding-top: 20px;
+}
+
+.mid>.internal>.heading {
+    width: 100%;
+    text-align: center;
+}
+
+.mid>.internal>img {
+    position: relative;
+    /* left: 20%; */
+    width: 60%;
+    height: 120%;
+    padding: 70px;
+    top: 25%
+}
+
+.pricing {
+    margin-top: 20%;
+    /* text-align: center; */
+}
+
+.pricing>.top-text {
+    text-align: center;
+}
+
+.serving {
+    width: 100%;
+    display: inline-flex;
+}
+
+.serving>.cards {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.serving>.cards>button {
+    width: 125px;
+    height: 46px;
+    background-color: #FFFFFF;
+    /* border: 3px solid #0099FF; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    font-weight: bold;
+}
+
+.serving>.cards>button.selected {
+    border-color: #0099FF;
+}
+
+.payment-type-toggle {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.payment-type-toggle>span {
+    padding: 5px;
+}
+
+.price-cards {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.lollipop,
+.icecandy,
+.savings {
+    display: inline-block;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+    border-collapse: collapse;
+    width: 17%;
+    height: 170px;
+    margin: 0px;
+    padding: 40px;
+}
+
+.savings {
+    position: relative;
+    height: 200px;
+    width: 20%;
+    top: -14px;
+    left: -30px;
+    box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+}
+
+.lollipop-text,
+.icecandy-text,
+.savings-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.lollipop>.serving-number,
+.icecandy>.serving-number {
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 156px;
+    text-align: left;
+}
+
+.amount {
+    color: #3D3C31;
+    font-family: AktivGrotesk;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+#per-month-text {
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    width: 78px;
+    text-align: left;
+}
+
+.customer-report,
+.bottom {
+    display: inline-flex;
+}
+
+.customer-report>div>.image {
+    width: 286px;
+    height: 278px;
+}
+
+.customer-report-text,
+.bottom-text {
+    padding-top: 20px;
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 22px;
+    width: 366px;
+    text-align: left;
+}
+
+span#name {
+    color: #31373D;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    font-style: normal;
+}
+
+span#designation {
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    font-style: normal;
+}
+
+span#designation {
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+}
+
+.bottom {
+    max-width: 760px;
+    max-height: 313px;
+    text-align: left;
+    display: inline-flex;
+    margin: 0px;
+}
+
+.bottom-text {
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 387px;
+    /* text-align: left; */
+    font-style: normal;
+}
+
+.bottom>img {
+    max-height: 233px;
+    max-width: 218.86px;
+    padding-left: 150px;
+}
+
+.invisible {
+    display: none;
+}
